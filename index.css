@@ -1,0 +1,122 @@
+/* Header Container */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  background: linear-gradient(to right, #ffe9d6, #fff3e0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Image */
+.logoContainer img {
+  max-height: 100px;
+  width: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.logoContainer img:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation Bar */
+.navBar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #ff5722;
+  padding: 1rem 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Links */
+.navBar div {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.navBar div:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/* Body Styling */
+.body {
+  background-color: #fffdf6;
+  padding: 2rem;
+}
+
+/* Search Bar */
+.search {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Container for Restaurant Cards */
+.res-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Restaurant Card Style */
+.res-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.res-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.res-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+/* Info Section */
+.res-info {
+  padding: 1rem;
+}
+
+.res-name {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.res-rating {
+  margin: 0.3rem 0;
+  color: #4caf50;
+  font-weight: 500;
+}
+
+.res-cuisines {
+  color: #888;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
+
+.res-location {
+  color: #555;
+  font-size: 0.9rem;
+}
+

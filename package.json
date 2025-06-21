@@ -1,0 +1,26 @@
+{
+  "name": "get-it-now",
+  "version": "1.0.0",
+  "description": "Shopping app",
+  "scripts": {
+    "test": "jest",
+    "start" :"npx parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryts/get-it-now.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryts/get-it-now/issues"
+  },
+  "homepage": "https://github.com/henryts/get-it-now#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
