@@ -1,0 +1,23 @@
+
+
+
+
+export const HEADER = () => 
+    {
+    return (
+  <div>
+    <div className="logoContainer">
+
+        <img src="https://thumbs.dreamstime.com/b/food-delivery-logo-design-template-134749604.jpg?w=768" alt="Logo" />
+
+    </div>
+    <div className="navBar">
+      <div>Home</div>
+      <div>About</div>
+      <div>Support</div>
+      <div>Map</div>
+    </div>
+  </div>
+
+    )
+    };
