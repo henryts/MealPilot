@@ -1,7 +1,7 @@
- export var resDataList = [
+export var resDataList = [
   {
     name: "Thalassery Kitchen",
-    imageUrl: "https://www.maggi.in/sites/default/files/styles/srh_recipes/public/srh_recipes/83100cde6b3045cdce27048211f14019.jpg?h=4f5b30f1&itok=hrD4cQhe",
+    imageUrl: "https://images.unsplash.com/photo-1606491956689-2f2e879b3a4d?auto=format&fit=crop&w=800&q=80",
     rating: 4.3,
     eta: "30 mins",
     cuisines: ["Kerala", "Malabar", "Biryani"],
@@ -9,7 +9,7 @@
   },
   {
     name: "Bombay Biryani House",
-    imageUrl: "https://www.cubesnjuliennes.com/wp-content/uploads/2021/10/Chicken-Biryani-Recipe.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1589302163674-3f2c5e2a56cb?auto=format&fit=crop&w=800&q=80",
     rating: 4.5,
     eta: "25 mins",
     cuisines: ["North Indian", "Biryani", "Mughlai"],
@@ -17,7 +17,7 @@
   },
   {
     name: "Namma Veedu",
-    imageUrl: "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/06/tamil-nadu-style-meals.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1627308594195-057f7bc3e8a9?auto=format&fit=crop&w=800&q=80",
     rating: 4.2,
     eta: "28 mins",
     cuisines: ["Tamil", "South Indian", "Veg Meals"],
@@ -25,7 +25,7 @@
   },
   {
     name: "Spice Garden",
-    imageUrl: "https://www.archanaskitchen.com/images/archanaskitchen/Indian_Snacks/Bhelpuri.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1598514983319-2f717d398b06?auto=format&fit=crop&w=800&q=80",
     rating: 4.6,
     eta: "20 mins",
     cuisines: ["Street Food", "Chaat", "Snacks"],
@@ -33,7 +33,7 @@
   },
   {
     name: "Udupi Bhavan",
-    imageUrl: "https://www.vegrecipesofindia.com/wp-content/uploads/2021/02/masala-dosa-1.jpg",
+    imageUrl: "https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?auto=format&fit=crop&w=800&q=80",
     rating: 4.4,
     eta: "22 mins",
     cuisines: ["South Indian", "Dosa", "Udupi"],

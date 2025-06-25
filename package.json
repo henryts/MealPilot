@@ -4,7 +4,7 @@
   "description": "Shopping app",
   "scripts": {
     "test": "jest",
-    "start" :"npx parcel index.html"
+    "start": "npx parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,10 @@
     "parcel": "^2.15.2"
   },
   "dependencies": {
+    "axios": "^1.10.0",
+    "buffer": "^6.0.3",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^6.30.1"
   }
 }

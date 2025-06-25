@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom";
 
 
 export const HEADER = () => 
@@ -13,7 +13,9 @@ export const HEADER = () =>
     </div>
     <div className="navBar">
       <div>Home</div>
-      <div>About</div>
+      <div>
+        <Link  to ="/about"> About</Link>
+       </div>
       <div>Support</div>
       <div>Map</div>
     </div>
