@@ -12,12 +12,12 @@ export const HEADER = () =>
 
     </div>
     <div className="navBar">
-      <div>Home</div>
+      <div><Link  to ="/home"> Home</Link></div>
       <div>
         <Link  to ="/about"> About</Link>
        </div>
-      <div>Support</div>
-      <div>Map</div>
+      <div><Link  to ="/support"> Support</Link></div>
+      <div><Link  to ="/map"> Map</Link></div>
     </div>
   </div>
 
